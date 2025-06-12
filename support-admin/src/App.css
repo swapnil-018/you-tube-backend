@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  font-family: 'Amazon Ember', 'Arial', sans-serif;
+  background-color: #f7f9fa;
+}
+
+.App {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.admin-app h1 {
+  color: #16191f;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #ec7211;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 5px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #d95f0e;
+}
+
+.ticket-list {
+  background: #f5f5f5;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-list h2 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.ticket-list-description {
+  color: #666;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.ticket-table {
+  width: 100%;
+}
+
+.ticket-header {
+  display: flex;
+  background: #4a4a4a;
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 4px 4px 0 0;
+}
+
+.ticket-header span {
+  flex: 1;
+  text-align: left;
+}
+
+.ticket-row {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  background: #fff;
+}
+
+.ticket-row:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.ticket-number, .ticket-title, .ticket-department, .ticket-date {
+  flex: 1;
+  text-align: left;
+}
+
+.ticket-number {
+  color: #1E90FF;
+  font-weight: 600;
+}
+
+.ticket-title a {
+  color: #0073bb;
+  text-decoration: none;
+}
+
+.ticket-title a:hover {
+  text-decoration: underline;
+}
+
+.ticket-department {
+  color: #1E90FF;
+}
+
+.ticket-date {
+  color: #666;
+}
+
+.ticket-number {
+  color: #555;
+  font-size: 0.9em;
+}
+
+.ticket-detail label {
+  font-weight: 600;
+  color: #232f3e;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.chat-container {
+  background: #fafafa;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-message {
+  padding: 10px;
+  margin: 10px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.message-body {
+  color: #16191f;
+}
+
+.timestamp {
+  font-size: 0.85em;
+  color: #687078;
+}
+
+.comment-form {
+  margin-top: 20px;
+}
+
+.ql-editor {
+  min-height: 100px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #0957a6;
+}
+
+.closed-notice {
+  color: #d13212;
+  font-weight: 600;
+}
+
+.status-update select {
+  margin-left: 10px;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  color: #16191f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form div {
+  margin-bottom: 15px;
+}
+
+.login-form label {
+  font-weight: 600;
+  color: #232f3e;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #d5d9d9;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.login-form button {
+  padding: 8px 16px;
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.login-form button:hover {
+  background-color: #0957a6;
+}
+
+.error {
+  color: #d13212;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logout-btn {
+  background-color: #e74c3c; /* Red for logout */
+  margin-left: 10px;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Existing ticket-list and other styles remain unchanged */
